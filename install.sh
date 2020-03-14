@@ -133,9 +133,9 @@ _sys_timezone() {
 	fi
 
 	echo
-	timedatectl set-timezone Asia/Shanghai
+	timedatectl set-timezone America/Vancouver
 	timedatectl set-ntp true
-	echo "已将你的主机设置为Asia/Shanghai时区并通过systemd-timesyncd自动同步时间。"
+	echo "已将你的主机设置为America/Vancouver时区并通过systemd-timesyncd自动同步时间。"
 	echo
 
 	if [[ $IS_OPENVZ ]]; then
